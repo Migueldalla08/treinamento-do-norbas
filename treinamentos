@@ -29,3 +29,16 @@ console.log(count);
 
 let cor=["azul", "verde", "preto", "amarelo"];
 console.log(cor.indexOf('preto'));
+
+
+let chá=["chá", "suco", "água"];
+console.log(chá.includes("café"));
+
+let numbers= [10, 5, 30, 15];
+let maiorNumero = numbers[0]; 
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > maiorNumero) {
+    maiorNumero = numbers[i];
+  }
+}
+console.log(maiorNumero);
